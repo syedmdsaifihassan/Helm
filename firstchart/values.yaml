@@ -1,6 +1,6 @@
 
-my:
-  flag: true
+#my:
+#  flag: true
 
 # Default values for firstchart.
 # This is a YAML-formatted file.

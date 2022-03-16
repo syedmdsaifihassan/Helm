@@ -1,12 +1,5 @@
 apiVersion: apps/v1
 kind: Deployment
-  {{template "firstchart.mytemplate" . }}
-{{ $myFLAG := .Values.my.flag }}
-
-{{- if $myFLAG }}
-{{"Output of if" | nindent 2 }}
-{{- end }}
-
 metadata:
   name: {{ include "firstchart.fullname" . }}
   labels:
